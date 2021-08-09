@@ -4,7 +4,7 @@
   "description": "Password generator",
   "main": "src/index.ts",
   "scripts": {
-    "start": "tsc --watch"
+    "build": "tsc"
   },
   "repository": {
     "type": "git",

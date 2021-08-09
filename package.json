@@ -1,0 +1,33 @@
+{
+  "name": "password-generator-cli",
+  "version": "1.0.0",
+  "description": "Password generator",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "tsc --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mawaraujo/password-generator-cli.git"
+  },
+  "author": "Mauro Araujo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mawaraujo/password-generator-cli/issues"
+  },
+  "homepage": "https://github.com/mawaraujo/password-generator-cli#readme",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "clipboardy": "^2.3.0",
+    "commander": "^8.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^16.4.13",
+    "@typescript-eslint/eslint-plugin": "^4.29.1",
+    "@typescript-eslint/parser": "^4.29.1",
+    "concurrently": "^6.2.1",
+    "eslint": "^7.32.0",
+    "eslint-config-google": "^0.14.0",
+    "typescript": "^4.3.5"
+  }
+}

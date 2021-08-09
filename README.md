@@ -1,5 +1,5 @@
 # Password Generator CLI
-Password generator is a command-line interface program to generate random password and save on a file
+Password generator is a command-line interface program to generate a random password and save on a file
 
 ## Basic setup
 1. run ``` npm install ```

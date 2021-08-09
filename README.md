@@ -5,7 +5,7 @@ Password generator is a command-line interface program to generate a random pass
 1. run ``` npm install ```
 1. run ``` npm run build ```
 2. Go to the folder dist/ a run the js file
-3. run ```node dist/ generate --{option} ```
+3. run ```node dist/ --{option} ```
 
 ## Available options
 * ``` -l or --length <number> ```: Length of password (default 10)
@@ -15,5 +15,5 @@ Password generator is a command-line interface program to generate a random pass
 * ``` -n or --name ```: Name for saved password (default: unnamed) 
 
 ## Examples
-* ``` node dist/ generate --name=mauro@facebook.com --no-symbols --save```
-* ``` node dist/ generate --name=mauro@twitter.com --no-numbers --no-symbols --length=30 --save```
+* ``` node dist/ --name=mauro@facebook.com --no-symbols --save```
+* ``` node dist/ --name=mauro@twitter.com --no-numbers --no-symbols --length=30 --save```

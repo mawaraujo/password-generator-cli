@@ -15,5 +15,5 @@ Password generator is a command-line interface program to generate a random pass
 * ``` -n or --name ```: Name for saved password (default: unnamed) 
 
 ## Examples
-* ``` node dist/ generate --name=FACEBOOK --no-symbols --save```
-* ``` node dist/ generate --name=TWITTER --no-numbers --no-symbols --length=30 --save```
+* ``` node dist/ generate --name=mauro@facebook.com --no-symbols --save```
+* ``` node dist/ generate --name=mauro@twitter.com --no-numbers --no-symbols --length=30 --save```
